@@ -1,0 +1,23 @@
+{
+  "places": {
+    "5938036553": "FrontlinesWaffle",
+    "17625359962": "RivalsWaffle",
+    "13997018456": "OppoWaffle",
+    "9825515356": "HoodWaffle",
+    "4588604953": "HoodWaffle",
+    "131964389958213": "ReloadedWaffle",
+    "92170389012249": "ReloadedWaffle",
+    "292439477": "PhantomWaffle",
+    "9818210203": "ValobloxWaffle"
+  },
+  "names": {
+    "frontlines": "FrontlinesWaffle",
+    "rivals": "RivalsWaffle",
+    "siege": "OppoWaffle",
+    "hood": "HoodWaffle",
+    "criminality": "HoodWaffle",
+    "reloaded": "ReloadedWaffle",
+    "phantom": "PhantomWaffle",
+    "valoblox": "ValobloxWaffle"
+  }
+}
