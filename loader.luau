@@ -4,7 +4,16 @@ local REPO_BASE = "https://raw.githubusercontent.com/vrcdev/"
 do
 	local q = queue_on_teleport or queueonteleport or (syn and syn.queue_on_teleport)
 	if q then
-		pcall(q, 'loadstring(game:HttpGet("https://raw.githubusercontent.com/vrcdev/AllWaffle/main/loader.luau"))()')
+		pcall(q, [=[
+local MATCHES = {[71874690745115] = true, [117398147513099] = true, [129604661913557] = true, [133215910299950] = true}
+if not MATCHES[game.PlaceId] then return end
+for i = 1, 900 do
+	if game:IsLoaded() and game:GetService("Players").LocalPlayer then break end
+	task.wait(0.1)
+end
+task.wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vrcdev/AllWaffle/main/loader.luau"))()
+]=])
 	end
 end
 
