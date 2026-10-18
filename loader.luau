@@ -1,6 +1,13 @@
 local BASE = "https://raw.githubusercontent.com/vrcdev/AllWaffle/main/"
 local REPO_BASE = "https://raw.githubusercontent.com/vrcdev/"
 
+do
+	local q = queue_on_teleport or queueonteleport or (syn and syn.queue_on_teleport)
+	if q then
+		pcall(q, 'loadstring(game:HttpGet("https://raw.githubusercontent.com/vrcdev/AllWaffle/main/loader.luau"))()')
+	end
+end
+
 local function fetch(url)
 	local ok, r = pcall(game.HttpGet, game, url)
 	if ok and type(r) == "string" and #r > 0 then return r end
