@@ -14,7 +14,8 @@
     "92170389012249": "ReloadedWaffle",
     "292439477": "PhantomWaffle",
     "9818210203": "ValobloxWaffle",
-    "9818227981": "ValobloxWaffle"
+    "9818227981": "ValobloxWaffle",
+    "94126019185069": "SaturnWaffle"
   },
   "names": {
     "frontlines": "FrontlinesWaffle",
@@ -24,6 +25,8 @@
     "criminality": "HoodWaffle",
     "reloaded": "ReloadedWaffle",
     "phantom": "PhantomWaffle",
-    "valoblox": "ValobloxWaffle"
+    "valoblox": "ValobloxWaffle",
+    "opencor": "SaturnWaffle",
+    "ugc": "SaturnWaffle"
   }
 }
